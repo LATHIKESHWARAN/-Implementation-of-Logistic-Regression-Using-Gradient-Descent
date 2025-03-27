@@ -8,19 +8,23 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import pandas library to read csv or excel file.
+1.Load Data – Read Placement_Data.csv and remove unnecessary columns.
 
-2.Import LabelEncoder using sklearn.preprocessing library.
+2.Convert Categorical Data – Encode categorical features into numerical values.
 
-3.Transform the data's using LabelEncoder.
+3.Prepare Data – Separate features (𝑋) and target variable (𝑌), initialize weights (𝜃).
+   
+4. Define Sigmoid Function – Compute probabilities using
+   
+    ![image](https://github.com/user-attachments/assets/e87535fe-a792-4573-ba32-4f3be1de1e5a)
+   
+5.Train Model – Update weights using gradient descent for multiple iterations.
 
-4.Import decision tree classifier from sklearn.tree library to predict the values.
+![image](https://github.com/user-attachments/assets/76a24d55-fe01-493f-b1dd-4a643de2358a)
 
-5.Find accuracy.
+6.Make Predictions – Predict placement status (1 = Placed, 0 = Not Placed).
 
-6.Predict the values.
-
-7.End of the program.
+7.Evaluate & Test – Calculate accuracy and predict placement for new students.
 
 ## Program:
 Program to implement the the Logistic Regression Using Gradient Descent.
